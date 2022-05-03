@@ -1,11 +1,11 @@
 let rev = 0;
-let num = 518415;
-let lastDigit;
+let numm = 12345678;
+let last;
 
-while (num != 0) {
-  lastDigit = num % 10;
-  rev = rev * 10 + lastDigit;
-  num = Math.floor(num / 10);
+while (numm != 0) {
+  last = numm % 10;
+  rev = rev * 10 + last;
+  numm = Math.floor(numm / 10);
 }
 
-console.log("Reverse number : " + rev);
+console.log(rev);
