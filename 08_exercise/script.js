@@ -15,7 +15,7 @@ const questions = [
       "Melinda and Bill Gates Foundation",
       "The United Nations",
       "The World Wide Web Consortium",
-      "CERN Laboratuaries",
+      "CERN Laborautories",
     ],
     correctAnswer: "The World Wide Web Consortium",
   },
