@@ -148,8 +148,5 @@ picture {
   main {
     display: flex;
     flex-direction: column;
-    grid-template-areas: ". aside . fig-2 fig-2" "title title banner banner banner" "fig-1 main banner banner banner";
-    grid-template-rows: repeat(6, auto);
-    grid-template-columns: repeat(7, 1fr);
   }
 }
