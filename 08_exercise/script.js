@@ -71,7 +71,7 @@ function writeQuestion(question) {
 writeQuestion(questions[randomNumber].question);
 
 const checkAnswer = (userAnswer) => {
-  if (userAnswer === questions[0].correctAnswer) {
+  if (userAnswer === questions[randomNumber].correctAnswer) {
     alert("correct");
   }
   console.log(userAnswer);
